@@ -2,7 +2,7 @@
 Gitea on an AWS EC2 instance using Docker. All persistent application data is stored on a separate EBS volume. Includes a small S-3 backup and restore work that uses AWS CLI 
 
 # Step By Step Deployment Instructions
----
+
 
 First I started by making an EC2 Instance and installing Docker on it. Then I set up the EBS on AWS and mounted it using these commands:
 
